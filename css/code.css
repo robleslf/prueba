@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Shizuru&display=swap');
+
+
+body {
+    background-image: url(../imgs/004_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+
+}
+  
+h1, h2 {
+    color: rgb(231, 157, 60);
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    font-family: "Orbitron", sans-serif;
+}
+
+pre {
+    font-family: "Josefina Sans", sans-serif;
+    color: rgb(245, 244, 177);
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  }
+
+section {
+    background: linear-gradient(135deg, #c04ef5, #8effffd7); 
+    border: 2px solid #ffe9a6b9; 
+    padding: 10px;
+    overflow: auto;
+    color: rgb(12, 44, 54);
+    border-radius: 15px;
+    margin: 200px;
+}
+
+nav {
+    background: linear-gradient(135deg, #f5a74e, #8effffd7); 
+    border: 2px solid #ffe9a6b9; 
+    padding: 10px;
+    overflow: auto;
+    color: rgb(12, 44, 54);
+    border-radius: 15px;;
+}
+
+ul, ol {
+    color: #c7802f;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.boton {
+    position: fixed;
+    bottom: 10px; 
+    left: 10px; 
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+.boton:hover {
+    background-color: #0056b3; 
+  }
+  
+
+

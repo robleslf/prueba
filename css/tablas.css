@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Gloria+Hallelujah&family=Josefin+Sans:wght@200&family=Orbitron:wght@700&family=Rubik+Bubbles&family=Shizuru&display=swap');
+
+body {
+    background-image: url(../imgs/011_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: #4a148c;
+    font-family: "Rubik Bubbles";
+    border: 2px solid #ef3bff; 
+    padding: 10px;
+    background-color: #ffeb3b;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-family: "Gloria Hallelujah";
+    color: #08233a;
+}
+
+th {
+    background-color: #e65100; 
+    color: #fff;
+}
+
+td {
+    background-color: #b39ddbce; 
+}
+
+ol {
+    list-style: lower-greek;
+    padding: 10px;
+    background-color: #ffeb3b;
+    border: #4a148c groove; 
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    margin-left: 20px;
+    font-family: "Bungee Spice";
+}
+
+
+
+a {
+    color: #ff9800; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #2196f3; 
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0a0118;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff8a65, #ffcc80, #a5d6a7);
+    transition: background 0.5s;
+}
+
+.boton:hover {
+    background: linear-gradient(to right, #4a148c, #7e57c2, #ab47bc);
+}
+
+.boton:hover {
+    background: linear-gradient(to right, #4a148c, #7e57c2, #ab47bc);
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: all 0.5s; 
+}
+
+
+

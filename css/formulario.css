@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../imgs/006_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #333;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f6f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  legend {
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #6c757d;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #693c24;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  #nombre {
+    border-color: #9c27b0;
+  }
+  
+  #apellido1 {
+    border-color: #ff9800;
+  }
+  
+  #contrasena,
+  #repit_contrasena {
+    border-color: #2196f3;
+  }
+  
+  #email {
+    border-color: #ff5722;
+  }
+  
+  #telefono {
+    border-color: #ff9800;
+  }
+  
+  #website {
+    border-color: #2196f3;
+  }
+  
+  #altura,
+  #birthday,
+  #genero,
+  #color,
+  #rango,
+  #comentario {
+    border-color: #673ab7;
+  }
+  
+  #terms_conditions,
+  #suscripcion {
+    margin-left: 5px;
+  }
+  
+input[type="date"] {
+    padding: 8px;
+  }
+  
+input[type="color"] {
+    height: 38px;
+    padding: 0;
+  }
+  
+input[type="range"] {
+    width: 100%;
+  }
+  
+#suscripcion {
+    margin-left: 5px;
+  }
+  
+.falsoboton {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 450px;
+  }
+  
+.falsoboton:hover {
+    background-color: #693c24;
+  }
