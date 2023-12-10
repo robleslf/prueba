@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>todourracas.com - contacto</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+            <br />
+            <br />
+
+            <label for="apellido1">Apellido 1: </label>
+            <input type="text" name="apellido1" id="apellido1" placeholder="Apellido 1" required>
+
+            <br />
+            <br />
+
+            <label for="apellido2">Apellido 2: </label>
+            <input type="text" name="apellido2" id="apellido2" placeholder="Apellido 2 (opcional)">
+
+
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+            <legend>Datos de autenticación</legend>
+
+            <label for="contrasena">Password: </label>
+            <input type="password" name="contrasena" id="contrasena" placeholder="8 dígitos mínimo" minlength="8" required>
+
+             <br />       
+             <br />
+             
+            <label for="repit_contrasena">Repit password: </label>
+            <input type="password" name="repit_contrasena" id="repit_contrasena" required>
+             
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+            <legend>Datos de contacto</legend>
+
+            <label for="email">email: </label>
+            <input type="email" id="email" name="email" placeholder="example@correo.com" required>
+
+            <br />
+            <br />
+
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" placeholder="000000000" required>
+
+            <br />
+            <br />
+
+            <label for="website">Sitio web personal: </label>
+            <input type="url" name="website" id="website" placeholder="https://example.com">
+
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+            <legend>Datos de su urraca (en caso de no disponer de urraca propia, dejar en blanco.)</legend>
+            
+
+            <label for="altura">Altura (cm): </label>
+            <input type="number" name="altura" id="altura" min="1" max="300" placeholder="175">
+
+            <label for="birthday">Fecha de nacimiento: </label>
+            <input type="date" name="birthday" id="birthday"  min="1900-01-01" max="2030-12-31">
+
+            <label for="genero">Género: </label>
+            <select name="genero" id="genero">
+                <option value="">-</option>
+                <option value="Rock">Macho</option>
+                <option value="Salsa">Hembra</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="color">Color del plumaje: </label>
+            <input type="color" name="color" id="color" value="#0D0521">
+
+            <br />
+            <br />
+
+            <label for="rango">Velocidad máxima en vuelo:</label>
+            <input type="range" id="rango" name="rango" min="0" max="100">
+            
+            <br />
+            <br />
+            
+            <label for="comentario">Observaciones:</label>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+            
+        </fieldset>
+            
+
+        <br />
+
+        <label for="terms_conditions">Acept terms and conditions</label>
+        <input type="checkbox" name="terms_conditions" id="terms_conditions" value="Acept terms and conditions">
+
+        <br />
+
+        <label for="suscripcion">Suscribirse al boletín de todourracas.com:</label>
+      <input type="checkbox" id="suscripcion" name="suscripcion" value="suscrito">
+
+        <br />
+        <br />
+
+
+        <a class="falsoboton" href="index.html">back</a>
+        <input type="submit" name="submit" id="submit" value="Send">
+
+        
+    </form>
+</body>
+</html>
